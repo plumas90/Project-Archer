@@ -49,5 +49,4 @@ MapCrawler가 생성한 2차원 배열을 기준으로 방을 생성하며 방�
 <br>
 방 종류의 다양성<br>
 ![image](https://github.com/plumas90/Project-Archer/assets/129154514/dc1d47ce-86ca-4d34-b22c-9f16d0c0bcf4)
-
 방의 종류가 4종류밖에 되지 않는데 확실히 좀 더 다양한 종류를 갖추면 좋았을 거라고 생각하지만 다른 에셋을 사용하여 테스트하였을 때 기존과 다른 이질감이 크게 느껴져 타협하였습니다
