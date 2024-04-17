@@ -9,8 +9,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 25c3d97c1c456844b8026ce1bd5791dc, type: 3}
-  m_Name: RangedAttackData
+  m_Script: {fileID: 0}
+  m_Name: RangedAttackData 1
   m_EditorClassIdentifier: Assembly-CSharp::RangedAttackData
   size: 1
   delay: 0.3
@@ -19,7 +19,7 @@ MonoBehaviour:
   target:
     serializedVersion: 2
     m_Bits: 64
-  isOnKnockback: 1
+  isOnKnockback: 0
   knockbackPower: 0
   knockbackTime: 0
   bulletNameTag: Arrow

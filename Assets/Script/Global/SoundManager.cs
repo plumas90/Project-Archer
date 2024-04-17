@@ -9,7 +9,7 @@ public class SoundManager : MonoBehaviour
     [SerializeField][Range(0f, 1f)] private float soundEffectVolume;
     [SerializeField][Range(0f, 1f)] private float soundEffectPitchVariance;
     [SerializeField][Range(0f, 1f)] private float musicVolume;
-    private ObjectPOOL objectPool;
+    private ObjectPool objectPool;
     private AudioSource musicAudioSource;
     public AudioClip musicClip;
 
@@ -20,7 +20,7 @@ public class SoundManager : MonoBehaviour
         musicAudioSource.volume = musicVolume;
         musicAudioSource.loop = true;
 
-        objectPool = GetComponent<ObjectPOOL>();
+        objectPool = GetComponent<ObjectPool>();
     }
 
     private void Start()

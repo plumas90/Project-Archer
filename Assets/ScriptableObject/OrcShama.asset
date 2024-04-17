@@ -9,22 +9,22 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 25c3d97c1c456844b8026ce1bd5791dc, type: 3}
-  m_Name: RangedAttackData
+  m_Script: {fileID: 0}
+  m_Name: OrcShama
   m_EditorClassIdentifier: Assembly-CSharp::RangedAttackData
-  size: 1
-  delay: 0.3
-  power: 2
-  speed: 10
+  size: 3
+  delay: 3
+  power: 3
+  speed: 3
   target:
     serializedVersion: 2
-    m_Bits: 64
-  isOnKnockback: 1
+    m_Bits: 0
+  isOnKnockback: 0
   knockbackPower: 0
   knockbackTime: 0
-  bulletNameTag: Arrow
-  duration: 5
-  spread: 4
+  bulletNameTag: Arr
+  duration: 1
+  spread: 1
   numberofProjectilesPerShot: 1
-  multipleProjectilesAngel: 7
-  projectileColor: {r: 1, g: 1, b: 1, a: 1}
+  multipleProjectilesAngel: 1
+  projectileColor: {r: 0, g: 0, b: 0, a: 0}

@@ -6,7 +6,7 @@ public class ProjectileManager : MonoBehaviour
 {
     [SerializeField] private ParticleSystem _impactParticelSystem;
 
-    private ObjectPOOL objectpool;
+    private ObjectPool objectpool;
     public static ProjectileManager Instance;
 
     public void Awake()
@@ -15,7 +15,7 @@ public class ProjectileManager : MonoBehaviour
     }
     void Start()
     {
-        objectpool=GetComponent<ObjectPOOL>();
+        objectpool=GetComponent<ObjectPool>();
     }
 
     public void shootBullet(Vector2 startPositon,Vector2 direction,RangedAttackData attackData) 

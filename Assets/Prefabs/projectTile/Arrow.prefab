@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 2582419207514244283}
   m_Layer: 0
   m_Name: Arrow
-  m_TagString: Untagged
+  m_TagString: Weapon
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -235,7 +235,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   levelCollisionLayer:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 128
   fxOnDestory: 1
 --- !u!1 &8021204248624157747
 GameObject:

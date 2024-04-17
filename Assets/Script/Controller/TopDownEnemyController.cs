@@ -14,7 +14,7 @@ public class TopDownEnemyController : Topdown
     protected virtual void Start() 
     {
         gameManager = GameManager.Instance;
-        //ClosetTarget = gameManager.Player;
+        ClosetTarget = gameManager.player.transform;
     }
     protected virtual void FixedUpdate() 
     {
